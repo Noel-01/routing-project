@@ -1,0 +1,10 @@
+<section id="tasks">
+  <header>
+    <h2>{{userName()}}</h2>
+    <menu>
+      <a routerLink="tasks/new">Add Task</a> <!-- Esta ruta relativa se añade a la existente del route.ts -->
+    </menu>
+  </header>
+
+  <router-outlet /> <!-- Para meter una ruta anidada de su hijo que muestra la tarea de cada usuario-->
+</section>
